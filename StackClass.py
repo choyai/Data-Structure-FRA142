@@ -15,5 +15,4 @@ class StackClass(LinkedList):
             else:
                 self.tail = temp.previous
             self.size -= 1
-            print("size = " + str(self.size))
             return temp

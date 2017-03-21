@@ -8,13 +8,13 @@ stacki = StackClass()
 queue = Queue()
 print(str(queue.isEmpty))
 print(str(stacki.isEmpty))
-for i in range(10):
-    stacki.push(Node(i))
-    queue.add(Node(i))
+#for i in range(10):
+    #stacki.push(Node(i))
+    #queue.add(Node(i))
     #print(Node(i))
-for i in range(10):
-    print(stacki.pop())
-    print(queue.remove())
+#for i in range(10):
+    #print(stacki.pop())
+    #print(queue.remove())
 linked = LinkedList()
 for i in range(10):
     linked.add(Node(i), i)

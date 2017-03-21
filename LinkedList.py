@@ -40,9 +40,9 @@ class LinkedList:
                 node.next = temp
                 #print("adding pos "+ str(pos))
             self.size+=1
-        print("size = " + str(self.size))
-        print(self.head)
-        print(self.tail)
+        #print("size = " + str(self.size))
+        #print(self.head)
+        #print(self.tail)
 
     def remove(self, pos):
         if pos >= self.size:
